@@ -8,7 +8,7 @@
 
 <script>
 import HeaderLogo from "@/components/Header/HeaderLogo";
-import HeaderMenu from "@/assets/HeaderMenu";
+import HeaderMenu from "@/components/Header/HeaderMenu";
 import HeaderAction from "@/components/Header/HeaderAction";
 
 export default {
