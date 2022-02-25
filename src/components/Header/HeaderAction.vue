@@ -12,12 +12,6 @@ export default {
   @import "src/assets/styles/variables";
 
   .component-header-action {
-    height: 40px;
-    border-radius: 50px;
     width: 160px;
-    background-color: $blue;
-    border: none;
-    color: $white;
-    font-weight: bold;
   }
 </style>

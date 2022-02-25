@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <Header/>
-    <Banner />
+    <Banner/>
+    <section class="content">
+      <ContactForm/>
+    </section>
   </div>
 </template>
 
@@ -9,10 +12,12 @@
 
 import Header from "@/components/Header/Header";
 import Banner from "@/components/Banner/Banner";
+import ContactForm from "@/components/Home/ContactForm";
 
 export default {
   name: 'App',
   components: {
+    ContactForm,
     Banner,
     Header
   }
@@ -28,5 +33,18 @@ body {
 
 #app {
   background-color: $white;
+}
+
+.content {
+  margin: 0 $default-side-sizing;
+}
+
+button, .btn {
+  height: 40px;
+  border-radius: 50px;
+  background-color: $blue;
+  border: none;
+  color: $white;
+  font-weight: bold;
 }
 </style>
