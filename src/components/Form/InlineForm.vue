@@ -32,6 +32,7 @@ export default {
     width: 30%;
     max-width: 180px;
     border: 1px solid $primary_pink;
+    padding: 0 10px;
 
     &:focus-visible {
       outline: none;
