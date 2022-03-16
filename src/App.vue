@@ -2,9 +2,10 @@
   <div id="app">
     <Header/>
     <Banner/>
-    <section class="content">
+    <section class="main-content">
       <TopTreatments />
     </section>
+    <MagrissimaProgram />
   </div>
 </template>
 
@@ -13,10 +14,12 @@
 import Header from "@/components/Header/Header";
 import Banner from "@/components/Banner/Banner";
 import TopTreatments from "@/components/Treatments/TopTreatments";
+import MagrissimaProgram from "@/components/FeaturedInfo/MagrissimaProgram";
 
 export default {
   name: 'App',
   components: {
+    MagrissimaProgram,
     TopTreatments,
     Banner,
     Header
@@ -35,7 +38,7 @@ body {
   background-color: $white;
 }
 
-.content {
+.main-content {
   margin: 0 $default-side-sizing;
 }
 

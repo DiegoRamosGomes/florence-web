@@ -14,12 +14,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "src/assets/styles/variables";
+@import "../../assets/styles/variables";
 
 .title {
   text-align: center;
   color: $blue;
-  margin: 70px 0;
+  padding: 70px 0;
+  margin: 0;
   font-size: 50px;
 }
 </style>

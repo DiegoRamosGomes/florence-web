@@ -28,7 +28,7 @@
 
 <script>
 import MainCard from "@/components/Card/MainCard";
-import SectionTitle from "@/components/SectionTitle";
+import SectionTitle from "@/components/Heading/SectionTitle";
 
 export default {
   name: "TopTreatments",
