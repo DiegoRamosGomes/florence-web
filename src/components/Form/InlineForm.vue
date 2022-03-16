@@ -31,7 +31,8 @@ export default {
     height: $input_height;
     width: 30%;
     max-width: 180px;
-    border: 1px solid $primary_pink;
+    border: 1px solid $secondary_pink;
+    border-radius: 5px;
     padding: 0 10px;
 
     &:focus-visible {

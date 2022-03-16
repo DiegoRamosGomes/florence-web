@@ -3,7 +3,6 @@
     <Header/>
     <Banner/>
     <section class="content">
-      <ContactForm/>
       <TopTreatments />
     </section>
   </div>
@@ -13,14 +12,12 @@
 
 import Header from "@/components/Header/Header";
 import Banner from "@/components/Banner/Banner";
-import ContactForm from "@/components/Home/ContactForm";
 import TopTreatments from "@/components/Treatments/TopTreatments";
 
 export default {
   name: 'App',
   components: {
     TopTreatments,
-    ContactForm,
     Banner,
     Header
   }

@@ -33,9 +33,9 @@ export default {
 
 .component-main-card {
   width: 100%;
-  border: 1px solid $primary_pink;
+  border: 1px solid $secondary_pink;
   border-radius: 5px;
-  margin: 0 10px;
+  margin: 0 30px;
 
   &__title, &__content {
     padding: 0 15px;
@@ -64,11 +64,11 @@ export default {
   }
 
   &:first-of-type {
-    margin: 0 10px 0 0;
+    margin: 0 30px 0 0;
   }
 
   &:last-of-type {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 30px;
   }
 
   &__image {
